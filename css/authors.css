@@ -1,0 +1,30 @@
+.authors {
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+.author-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.author {
+    background: #fff;
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 5px;
+    text-align: center;
+}
+
+.author img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.author h2 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}

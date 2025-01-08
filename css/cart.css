@@ -1,0 +1,13 @@
+.cart_totals {
+    border: 2px dashed #ccc;
+    padding: 20px;
+    background: #f9f9f9;
+}
+
+button.checkout {
+    background-color: #0073aa;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}

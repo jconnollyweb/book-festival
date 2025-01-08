@@ -1,0 +1,14 @@
+.woocommerce-MyAccount-navigation {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.woocommerce-MyAccount-navigation ul {
+    list-style: none;
+    padding: 0;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+    margin: 10px 0;
+}

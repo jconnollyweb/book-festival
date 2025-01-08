@@ -1,0 +1,9 @@
+.woocommerce-checkout {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+input, textarea {
+    border-radius: 5px;
+    padding: 10px;
+}

@@ -1,0 +1,12 @@
+.woocommerce div.product .single_add_to_cart_button {
+    background-color: green;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.woocommerce div.product .single_add_to_cart_button:hover {
+    background-color: darkgreen;
+}
