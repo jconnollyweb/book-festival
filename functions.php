@@ -128,3 +128,15 @@ function enqueue_custom_single_product_styles() {
 }
 add_action( 'wp_enqueue_scripts', 'enqueue_custom_single_product_styles' );
 
+function enqueue_custom_scripts() {
+    // Enqueue the countdown script
+    wp_enqueue_script(
+        'countdown-timer',
+        get_template_directory_uri() . '/js/countdown-timer.js', 
+        [],
+        null,
+        true
+        
+    );
+}
+add_action('wp_enqueue_scripts', 'enqueue_custom_scripts');
