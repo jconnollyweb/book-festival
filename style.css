@@ -7,3 +7,24 @@ Description: A custom WordPress theme for a book festival.
 Version: 1.0
 Text Domain: bookfestival
 */
+#countdown-timer {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin-top: 20px;
+    font-size: 1.2em;
+    font-family: "New Amsterdam", serif;
+    background-color: black;
+}
+
+#countdown-timer div {
+    text-align: center;
+    padding: 10px;
+    background: #f4f4f4;
+    color: orange;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    background-color: rgb(28, 26, 26);
+    font-family: "New Amsterdam", serif;
+    font-size: 40px;
+}
